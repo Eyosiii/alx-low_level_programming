@@ -10,12 +10,10 @@
 
 int main(void)
 {
-	int i;
+	char i;
 
-	i = 0;
-
-	while (i < 10)
-		i++;
-	printf("n\n");
+	for (i = 0 ; i < 10 ; i++)
+	printf("%d", i);
+	printf("\n");
 	return (0);
 }
