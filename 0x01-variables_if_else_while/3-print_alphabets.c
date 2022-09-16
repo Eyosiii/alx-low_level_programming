@@ -4,7 +4,7 @@
  * main-Prints all lower and upper case alphabets
  *
  * Description: Shows all alphabets
- *
+ * @c: character used for variable
  * Return: 0
  */
 
@@ -12,11 +12,11 @@ int main(void)
 {
 	char c;
 
-	while (c >= 'a' && c <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
-	while (c >= 'A' && c <= 'Z')
+	for (c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(c);
 	}
