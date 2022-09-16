@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main-Prints all lower and upper case alphabets
  *
- * Description: Shows all alphabets
- * @c: character used for variable
+ * Description: Shows all alphabets using the main function
+ *
  * Return: 0
  */
 
