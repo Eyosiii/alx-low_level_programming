@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- *reset_to_98: pointer update
+ *reset_to_98 - pointer update
  *@n: int used
  *
  * Return: 0
