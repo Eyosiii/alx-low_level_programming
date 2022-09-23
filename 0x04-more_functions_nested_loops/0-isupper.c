@@ -9,11 +9,11 @@
 
 int _isupper(int c)
 {
-	char c;
+	char x;
 
-	if (c >= 'A'; c <= 'Z')
-		_putchar("1");
+	if (x >= 65 && x <= 90)
+		_putchar('1');
 	else
-		_putchar ("0");
+		_putchar ('0');
 	return (0);
 }
