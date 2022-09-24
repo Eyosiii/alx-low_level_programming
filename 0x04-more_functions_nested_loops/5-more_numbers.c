@@ -12,8 +12,12 @@ void more_numbers(void)
 
 	for (n = '0'; n <= '8'; n++)
 	{
-		for (i = 1; i < 10; i++)
 		_putchar(n);
 	}
-		_putchar('\n');
+	_putchar('\n');	
+	for (i = 1; i <= 10; i++)
+	{
+		_putchar(n);
+	}
+	
 }
