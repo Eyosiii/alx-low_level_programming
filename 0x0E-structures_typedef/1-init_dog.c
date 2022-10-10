@@ -7,8 +7,8 @@
  *
  *@d: pointer to the struct
  *@name: dogs name
- *age: dogs age
- *owner: dogs owner
+ *@age: dogs age
+ *@owner: dogs owner
  *
  * Return: 0
  */
