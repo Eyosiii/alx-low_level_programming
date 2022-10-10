@@ -1,5 +1,15 @@
-#ifndef "DOG_H"
-#define "DOG_H"
+#ifndef DOG_H
+#define DOG_H
+
+/**
+ * struct dog - a structure which includes name, age and owner
+ *
+ * @name: dogs name
+ * @age: dogs age
+ * @owner: dogs owner
+ *
+ * Return: 0
+ */
 
 struct dog
 {
