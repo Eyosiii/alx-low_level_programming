@@ -14,12 +14,16 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *x;
 
-	x = create_array(size, c);
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	if (size > 0)
+	x = malloc(size * sizeof(char));
+	if (x == 0)
+	{
+		return (NULL);
+	}
+	if (x > 0)
 	{
 		for (i = 0; i < size; c++)
 		_putchar (c);
