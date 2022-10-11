@@ -12,6 +12,5 @@
 
 void free_dog(dog_t *d)
 {
-	int *free_dog = (int*)malloc(sizeof(struct dog));
-	free(free_dog);
+	free(d);
 }
