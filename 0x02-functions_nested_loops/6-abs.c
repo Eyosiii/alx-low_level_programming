@@ -1,17 +1,22 @@
 #include "main.h"
 
-/* main - Entry point
- *
+/*
+ *_abs - shows absolute value
  * Description: Shows the absolute value of integers
  *
  * Return: 0
  */
 
 int _abs(int i)
-{	
-	if ((i = (-i)))
-	_putchar (i);
+{
+	int j;
+
+	if (i < 0)
+	{
+		j = i * (-1);
+		_putchar (j);
+	}
 	else
-	_putchar (i);	
+	_putchar (i);
 	return (0);
 }
