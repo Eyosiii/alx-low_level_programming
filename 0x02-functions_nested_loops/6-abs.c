@@ -9,14 +9,11 @@
 
 int _abs(int i)
 {
-	int j;
-
 	while (i >= 48 && i < 58)
 	{
 		if (i < 0)
 		{
-			j = i * (-1);
-			_putchar (j);
+			_putchar (-i);
 		}
 		else
 		_putchar (i);
