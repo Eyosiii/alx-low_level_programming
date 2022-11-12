@@ -3,12 +3,15 @@
 /*
  * _puts_recursion - prints a string
  *
- * @s: a string used 
+ * @s: a string used
  *
  * Return: 0
  */
 
 void _puts_recursion(char *s)
 {
+	if (s == NULL)
+		_putchar('\n');
+	else
 	_putchar(*s);
 }
