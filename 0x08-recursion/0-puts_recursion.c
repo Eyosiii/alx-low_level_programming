@@ -10,8 +10,6 @@
 
 void _puts_recursion(char *s)
 {
-	while (*s)
-	{
+	if (s != NULL)
 	_putchar(*s++);
-	}
 }
